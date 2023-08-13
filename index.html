@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Currency Converter</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand|Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <nav>
+        <ul class="header-icons">
+            <li>
+                <a href="https://github.com/ayushankar7"><i class="fab fa-github fa-lg"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/ayush-shankar-697a12225/"><i class="fab fa-linkedin fa-lg"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/ayushankar7/"><i class="fab fa-instagram fa-lg" style="color: #F56040"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="head-box"></div>
+        <div class="subcontainer">
+            <div class="header">
+                <h1>Currency Converter</h1>
+            </div>
+            <div class="form-container">
+                <form action="#">
+                    <div class="amount">
+                        <p>Enter amount</p>
+                        <input type="number" value="1">
+                    </div>
+                    <div class="drop-list">
+                        <div class="from-drop-list">
+                                <select></select>
+                        </div>
+                        <div class="exchange-icon">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <div class="to-drop-list">
+                                <select></select>
+                        </div>
+                    </div>
+                    <div class="exchange-rate-text">
+                        <div class="exchange-rate-up">Getting exchange rates...</div>
+                        <div class="exchange-rate-down">---</div>    
+                    </div>
+                    <button>Get Exchange Rate</button>
+                </form>
+            </div>
+        </div>
+        <div class="foot-box"></div>
+    </div>
+
+    <script src="js/currency-list.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

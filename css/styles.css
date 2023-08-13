@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    display: flex;
+    height: auto;
+    background:lavender;
+    min-height: 100vh;
+}
+nav{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 46px;
+    background-color: lightsteelblue;
+    
+}
+nav ul{
+    display: flex;
+    position: absolute;
+    top: 3px;
+    right:10px;
+}
+nav ul li{
+    list-style: none;
+    width: 40px;
+    font-size: 20px;
+    margin: 5px 10px;
+}
+
+.head-box{
+    height: 90px;
+}
+.header h1{
+    font-family: "Quicksand", sans-serif;
+}
+.container{
+    margin: auto;
+}   
+.subcontainer{
+    border-radius: 15px;
+    width: auto;
+    padding: 40px 50px 50px 50px;
+    background:snow;
+}   
+.foot-box{
+    height: 90px;
+}
+.container form{
+    margin: 30px 0px 0px 0px;
+}
+form input{
+    height: 40px;
+    font-size: medium;
+    padding: 0 15px;
+    border: 1px solid lightgray;
+}
+form input:focus
+{
+    padding: 0 15px;
+    border: 2px solid lightsteelblue;
+}
+form :where(input, select, button){
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+p{
+    font-size: medium;
+    margin-bottom: 3px;
+}
+form .drop-list{
+    margin: 30px 0 30px 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+form .from-drop-list{
+    width: 40%;
+    display: flex;
+}
+form .exchange-icon{
+    width: 10%;
+    display:flex;
+    font-size: large;
+    justify-content: center;
+    cursor: pointer;
+}
+form .to-drop-list{
+    width: 40%;
+    display: flex;
+}
+select{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid lightgray;
+}
+select:focus{
+    border: 2px solid lightsteelblue;
+}
+form .exchange-rate-up{
+    font-size: 13px;
+    font-weight: 500;
+}
+form .exchange-rate-down{
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 500;
+}
+form button{
+    height: 40px;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+    background: mediumslateblue;
+}
